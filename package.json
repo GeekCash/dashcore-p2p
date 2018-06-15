@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p-dash",
+  "name": "geekcash-p2p",
   "version": "1.1.6",
-  "description": "Interface to the dash P2P network for bitcore-dash",
+  "description": "Interface to the dash P2P network for geekcash",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -45,14 +45,15 @@
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "bitcore",
+    "geekcash"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-p2p-dash.git"
+    "url": "https://github.com/GeekCash/geekcash-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.15.2",
+    "geekcash-lib": "https://github.com/GeekCash/geekcash-lib.git",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
